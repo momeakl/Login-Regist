@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The practice of Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login_text.css">
+</head>
+
+<body>
+    <div class="part-top"></div>
+    <div class="wrapper">
+        <!--<img src="treemoLabs-logo.png" alt="a tree">-->
+        <section class="picture">
+            
+            <h1>登录</h1>
+            <img src="images/lazy_cat.png" alt="lazy cat">
+        </section>
+        <div class="login_content">
+            <form action="#" method="post">
+                <section class="text-input">
+                    <label for="username">邮箱</label>
+                    <input type="text" id="username" name="username"/>
+                    <p class="msg"><i class="ati"></i>请输入正确邮箱格式</p>
+                </section>
+                <section class="text-input">
+                    <label for="password">密码</label>
+                    <input type="password" id="password" name="password">
+                    <p class="msg"><i class="ati"></i>请输入密码</p>
+                </section>
+                <section>
+                    <input type="submit" value="登录" onclick="check()"/>
+                    <input type="reset" value="清空">
+                </section>
+                <p><a href="Register.html">还没注册？</a></p>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/login_text.js"></script>
+</body>
+
+</html>

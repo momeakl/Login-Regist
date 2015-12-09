@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>The practice of Register</title>
+</head>
+
+<body>
+    <div class="top"></div>
+    <div class="wrapper">
+        <form action="login_test.html" method="post">
+           <section class="picture">
+            <legend><span>注册</span>
+            </legend>
+             <img src="images/cat.png" alt="a cat">
+            </section>
+            
+            <section class="text-input">
+                <label for="user_name">邮箱</label>
+                <input type="text" id="user_name" name="user_name">
+                <p class="msg"><i class="ati"></i>请输入6-26个字符长度</p>
+            </section>
+            
+            <section class="text-input">
+                <label for="user_psw">密码</label>
+                <input type="password" id="user_psw" name="user_psw">
+                <p class="msg">密码长度不大于16，使用组合字符数字等等</p>
+            </section>
+            
+            <section class="text-input">
+                <label for="user_psw2">确认密码</label>
+                <input type="password" id="user_psw2" name="user_psw2" disabled="">
+                <p class="msg">两次密码应当一致</p>
+            </section>
+            
+            <section class="text-input">
+                <label for="user_nickname">昵称</label>
+                <input type="text" id="user_nickname" name="user_nickname">
+                <p class="msg">昵称应当唯一</p>
+            </section>
+            
+            <section>
+                <input type="submit" value="注册">
+                <input type="reset" value="重置">
+            </section>
+            
+        </form>
+    </div>
+    
+    <script type="text/javascript" src="js/refister.js"></script>
+</body>
+
+</html>

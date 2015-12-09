@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Comic Sans MS", helvetica, arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: #161616;
+}
+.top {
+    height: 300px;
+    width: 100%;
+    background: #eee;
+    border-bottom: 3px solid #aaa;
+    margin-bottom: -80px
+}
+.wrapper {
+    width: 600px;
+    text-align: center;
+    margin: 0 0 0 50%;
+    position: absolute;
+    left: -180px;
+}
+form legend {
+    font-size: 2.5em;
+    font-family: "Comic Sans MS", "幼圆", "黑体", sans-serif;
+    font-weight: normal;
+    margin: 0 auto 20px;
+    color: #555;
+    float: left;
+}
+section.picture img {
+    float: left;
+    max-height: 60px;
+    max-width: 60px;
+    margin: 10px 0 0 10px;
+}
+section {
+    overflow: hidden;
+    padding: .5em 0;
+}
+section.text-input label {
+    font-family: "幼圆";
+    float: left;
+    width: 80px;
+    text-align: left;
+}
+section.text-input input {
+    float: left;
+    width: 150px;
+    height: 20px;
+    border-radius: 15px 0;
+    outline: none;
+    padding: .2em 0 0 .7em;
+    margin-left: 25px;
+}
+.msg {
+    display: none;
+}
+.msg i {
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+section.text-input p {
+    font-family: "幼圆", "宋体", "arial";
+    font-size: 15px;
+    color: darkorange;
+    float: left;
+    margin: 5px;
+}
+section input[type=submit] {
+    float: left;
+    height: 25px;
+    width: 40px;
+    border-radius: 7px 0;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 180px;
+    opacity: 0.9;
+}
+section input[type=submit]:hover{opacity: 1;}
+section input[type=reset] {
+    float: left;
+    height: 25px;
+    width: 40px;
+    border-radius: 7px 0;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-left: 10px;
+    opacity: 0.9;
+}
+section input[type=reset]:hover{opacity: 1;}
